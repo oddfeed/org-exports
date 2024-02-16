@@ -1,0 +1,40 @@
+#!/bin/bash
+
+rm index.md
+output_file="index.md"
+
+echo "# Masterlist"  >> "$output_file"
+echo "This index was automatically generated"  >> "$output_file"
+echo "---" >> "$output_file"
+
+declare -A files_by_year_month
+
+for file in *.html; do
+    if [ "$file" == "README.md" ] || [ "$file" == "index.md" ]; then
+        continue
+    fi
+
+    year_month=$(date -r "$file" +"%Y-%m")
+
+    files_by_year_month[$year_month]+="- [$file](https://oddfeed.github.io/org-exports/${file%.*}.html)\n"
+done
+
+# Sort years and months and write to the file
+previous_year=""
+for year_month in $(echo ${!files_by_year_month[@]} | tr ' ' '\n' | sort -u); do
+    year=${year_month:0:4}
+    month=${year_month:5:2}
+
+    # Check if the year has changed and add a year heading if it has
+    if [ "$year" != "$previous_year" ]; then
+        echo "# $year" >> "$output_file"
+        previous_year=$year
+    fi
+
+    # Convert month number to month name
+    month_name=$(date -d "$year-$month-01" +"%B")
+
+    echo "## $month_name" >> "$output_file"
+    echo -e "${files_by_year_month[$year_month]}" >> "$output_file"
+done
+
