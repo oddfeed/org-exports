@@ -16,7 +16,7 @@ for file in *.html; do
 
     year_month=$(date -r "$file" +"%Y-%m")
 
-    files_by_year_month[$year_month]+="- [$file](https://oddfeed.github.io/org-exports/${file%.*}.html)\n"
+    files_by_year_month[$year_month]+="- [$file](https://org.alienate.earth/${file%.*}.html)\n"
 done
 
 # Sort years and months and write to the file
