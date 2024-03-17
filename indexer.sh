@@ -11,7 +11,7 @@ echo "---" >> "$output_file"
 
 declare -A files_by_year_month
 
-for file in *.{html,md}; do
+for file in *.{html,md,org}; do
     if [ "$file" == "README.md" ] || [ "$file" == "index.md" ]; then
         continue
     fi
