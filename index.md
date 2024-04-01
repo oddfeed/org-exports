@@ -5,6 +5,9 @@
 This index was automatically generated and is sorted chronologically based on updated time
 ---
 # 2024
+## April
+- [2024-04-01_Perplexity.ai_hyperstitions.md](https://org.alienate.earth/2024-04-01_Perplexity.ai_hyperstitions.html)
+
 ## March
 - [202402-driving.html](https://org.alienate.earth/202402-driving.html)
 - [logs.html](https://org.alienate.earth/logs.html)
