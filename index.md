@@ -4,14 +4,14 @@
 # Masterlist
 This index was automatically generated and is sorted chronologically based on updated time
 ---
-
-
 # 2024
 ## April
+- [reading.html](https://org.alienate.earth/reading.html)
 - [2024-04-01_Perplexity.ai_hyperstitions.md](https://org.alienate.earth/2024-04-01_Perplexity.ai_hyperstitions.html)
+- [2024-04-23_Perplexity.ai_Mark Fisher argued that the pandemic of mental anguish.md](https://org.alienate.earth/2024-04-23_Perplexity.ai_Mark Fisher argued that the pandemic of mental anguish.html)
+- [2024-04-23_Perplexity.ai_Tell me about celibacy in buddhism.md](https://org.alienate.earth/2024-04-23_Perplexity.ai_Tell me about celibacy in buddhism.html)
 
 ## March
 - [202402-driving.html](https://org.alienate.earth/202402-driving.html)
 - [logs.html](https://org.alienate.earth/logs.html)
-- [reading.html](https://org.alienate.earth/reading.html)
 
