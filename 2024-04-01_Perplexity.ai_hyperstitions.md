@@ -1,3 +1,7 @@
+<head>
+<script defer src="https://analytics.goinghome.earth/script.js" data-website-id="519b085c-73db-408b-bf40-6cb4d158dfbc"></script>
+</head>
+
 # Explain hyperstitions to me, also if we assume they're true how can I use them...
 Exported on 01/04/2024  - with [SaveMyChatbot](https://save.hugocollin.com)
 

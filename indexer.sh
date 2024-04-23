@@ -11,7 +11,7 @@ echo "---" >> "$output_file"
 
 declare -A files_by_year_month
 
-for file in *.{html,md,org}; do
+for file in *.{html,md,pdf}; do
     if [ "$file" == "README.md" ] || [ "$file" == "index.md" ]; then
         continue
     fi
@@ -19,6 +19,7 @@ for file in *.{html,md,org}; do
     year_month=$(date -r "$file" +"%Y-%m")
 
     files_by_year_month[$year_month]+="- [$file](https://org.alienate.earth/${file%.*}.html)\n"
+    
 done
 
 # Sort years and months and write to the file

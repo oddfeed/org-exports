@@ -1,3 +1,6 @@
+<head>
+<script defer src="https://analytics.goinghome.earth/script.js" data-website-id="519b085c-73db-408b-bf40-6cb4d158dfbc"></script>
+</head>
 # Tell me about celibacy (practical and philosophical) in the context of buddhism
 
 ## User
