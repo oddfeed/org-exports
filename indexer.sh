@@ -18,7 +18,11 @@ for file in *.{html,md,pdf}; do
 
     year_month=$(date -r "$file" +"%Y-%m")
 
-    files_by_year_month[$year_month]+="- [$file](https://org.alienate.earth/${file%.*}.html)\n"
+    if [[ "$file" == *.pdf ]]; then
+        files_by_year_month[$year_month]+="- [$file](https://org.alienate.earth/${file%.*}.pdf)\n"
+    else
+        files_by_year_month[$year_month]+="- [$file](https://org.alienate.earth/${file%.*}.html)\n"
+    fi
     
 done
 

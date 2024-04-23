@@ -10,7 +10,7 @@ This index was automatically generated and is sorted chronologically based on up
 - [2024-04-01_Perplexity.ai_hyperstitions.md](https://org.alienate.earth/2024-04-01_Perplexity.ai_hyperstitions.html)
 - [2024-04-23_Perplexity.ai_Mark Fisher argued that the pandemic of mental anguish.md](https://org.alienate.earth/2024-04-23_Perplexity.ai_Mark Fisher argued that the pandemic of mental anguish.html)
 - [2024-04-23_Perplexity.ai_Tell me about celibacy in buddhism.md](https://org.alienate.earth/2024-04-23_Perplexity.ai_Tell me about celibacy in buddhism.html)
-- [History_of_Buddhism.pdf](https://org.alienate.earth/History_of_Buddhism.html)
+- [History_of_Buddhism.pdf](https://org.alienate.earth/History_of_Buddhism.pdf)
 
 ## March
 - [202402-driving.html](https://org.alienate.earth/202402-driving.html)
