@@ -8,6 +8,7 @@ echo "</head>" >> "$output_file"
 echo "# Masterlist"  >> "$output_file"
 echo "This index was automatically generated and is sorted by year created"  >> "$output_file"
 echo "---" >> "$output_file"
+echo "[main site](https://alienate.earth/)" >> "$output_file"
 
 files_by_year=()
 
