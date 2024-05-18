@@ -6,10 +6,10 @@ This index was automatically generated and is sorted by year created
 ---
 [main site](https://alienate.earth/)
 # 0
-- [*.html](https://org.alienate.earth/pdfs/*.html)
+- [*.html](https://org.alienate.earth/PDFs/*.html)
 
 # 2024
-- [Dharma_combat.pdf](https://org.alienate.earth/pdfs/Dharma_combat.pdf)
-- [History_of_Buddhism.pdf](https://org.alienate.earth/pdfs/History_of_Buddhism.pdf)
-- [Timeline_of_Buddhism.pdf](https://org.alienate.earth/pdfs/Timeline_of_Buddhism.pdf)
+- [Dharma_combat.pdf](https://org.alienate.earth/PDFs/Dharma_combat.pdf)
+- [History_of_Buddhism.pdf](https://org.alienate.earth/PDFs/History_of_Buddhism.pdf)
+- [Timeline_of_Buddhism.pdf](https://org.alienate.earth/PDFs/Timeline_of_Buddhism.pdf)
 
