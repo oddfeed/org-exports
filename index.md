@@ -7,11 +7,9 @@ This index was automatically generated and is sorted by year created
 [main site](https://alienate.earth/)
 # 2024
 - [/PDFs](https://org.alienate.earth/PDFs/index.html)
+- [/reading](https://org.alienate.earth/reading/index.html)
 - [2024-04-01_Perplexity.ai_hyperstitions.md](https://org.alienate.earth/2024-04-01_Perplexity.ai_hyperstitions.html)
 - [2024-04-23_Perplexity.ai_Mark Fisher argued that the pandemic of mental anguish.md](https://org.alienate.earth/2024-04-23_Perplexity.ai_Mark Fisher argued that the pandemic of mental anguish.html)
 - [2024-04-23_Perplexity.ai_Tell me about celibacy in buddhism.md](https://org.alienate.earth/2024-04-23_Perplexity.ai_Tell me about celibacy in buddhism.html)
 - [ChatGPT-Lacans-Anxiety-Theory.md](https://org.alienate.earth/ChatGPT-Lacans-Anxiety-Theory.html)
 - [logs.html](https://org.alienate.earth/logs.html)
-- [reading.html](https://org.alienate.earth/reading.html)
-- [reading2024.html](https://org.alienate.earth/reading2024.html)
-- [readingyear.html](https://org.alienate.earth/readingyear.html)
