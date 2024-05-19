@@ -13,4 +13,5 @@ This index was automatically generated and is sorted by year created
 - [2024-04-23_Perplexity.ai_Tell me about celibacy in buddhism.md](https://org.alienate.earth/2024-04-23_Perplexity.ai_Tell me about celibacy in buddhism.html)
 - [ChatGPT-Inflammation and Depression Theory.md](https://org.alienate.earth/ChatGPT-Inflammation and Depression Theory.html)
 - [ChatGPT-Lacans-Anxiety-Theory.md](https://org.alienate.earth/ChatGPT-Lacans-Anxiety-Theory.html)
+- [ChatGPT-Memory and depression link.md](https://org.alienate.earth/ChatGPT-Memory and depression link.html)
 - [logs.html](https://org.alienate.earth/logs.html)
