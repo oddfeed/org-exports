@@ -1,3 +1,8 @@
+# Table of Contents
+
+    - [Prompt:](#Prompt)
+    - [Response:](#Response)
+
 ## Prompt:
 I heard a theory that depression is a memory issue that you just esentially become less able to remember past positive events and all treatments that work for depression also improve memory
 

@@ -12,13 +12,14 @@ if [ ! -f "$FILE" ]; then
     exit 1
 fi
 
-# Function to generate TOC
+# Function to generate TOC with 2 levels
 generate_toc() {
-    grep -E '^#{1,6} ' "$FILE" | sed -E 's/^(#{1,6}) /\1 /' | while read -r line; do
+    grep -E '^#{1,2} ' "$FILE" | sed -E 's/^(#{1,2}) /\1 /' | while read -r line; do
         level=$(echo "$line" | grep -o '^#' | wc -c)
         title=$(echo "$line" | sed 's/^#* //')
         anchor=$(echo "$title" | tr -cd '[:alnum:] ' | tr ' ' '-')
-        printf "%*s- [%s](#%s)\n" $((level-1)) '' "$title" "$anchor"
+        indent=$((level - 1))
+        printf "%*s- [%s](#%s)\n" $((indent * 4)) '' "$title" "$anchor"
     done
 }
 

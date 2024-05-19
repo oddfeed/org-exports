@@ -1,14 +1,17 @@
 # Table of Contents
 
- - [Explain hyperstitions to me, also if we assume they're true how can I use them...](#Explain-hyperstitions-to-me-also-if-we-assume-theyre-true-how-can-I-use-them)
- - [User](#User)
- - [Pro answer](#Pro-answer)
+    - [Hyperstitions](#Hyperstitions)
+    - [User](#User)
+    - [Pro answer](#Pro-answer)
+    - [Understanding Hyperstitions](#Understanding-Hyperstitions)
+    - [Examples of Hyperstitions](#Examples-of-Hyperstitions)
+    - [Using Hyperstitions for Personal Benefit](#Using-Hyperstitions-for-Personal-Benefit)
 
 <head>
 <script defer src="https://analytics.goinghome.earth/script.js" data-website-id="519b085c-73db-408b-bf40-6cb4d158dfbc"></script>
 </head>
 
-# Explain hyperstitions to me, also if we assume they're true how can I use them...
+# Hyperstitions
 Exported on 01/04/2024  - with [SaveMyChatbot](https://save.hugocollin.com)
 
 ## User
@@ -17,7 +20,7 @@ Explain hyperstitions to me, also if we assume they're true how can I use them t
 ## Pro answer
 Hyperstitions are a concept that blends elements of fiction, culture, and belief systems to influence and shape reality. The term is a portmanteau of "hyper" and "superstition," and it was coined by the British cultural theorists Nick Land and Mark Fisher, among others associated with the Cybernetic Culture Research Unit (CCRU). Hyperstitions are not merely superstitions or false beliefs; they are ideas that, by their very existence and dissemination, function causally to bring about their own reality [1](http://cyborganthropology.com/Hyperstition) [2](https://poe.com/danysdragons/1512927999960117) [3](http://xenopraxis.net/readings/carstens_hyperstition.pdf) [5](https://www.orphandriftarchive.com/articles/hyperstition/) [6](https://www.orphandriftarchive.com/articles/hyperstition-an-introduction/).
 
-Understanding Hyperstitions
+## Understanding Hyperstitions
 ---------------------------
 
 Hyperstitions operate through several mechanisms:
@@ -26,13 +29,13 @@ Hyperstitions operate through several mechanisms:
 *   **Cultural Feedback Loops**: They recognize that cultural production can influence reality, creating a feedback loop. For example, a science fiction novel may inspire a scientist to develop new technology, which in turn shapes society and leads to further cultural production [2](https://poe.com/danysdragons/1512927999960117).
 *   **Self-fulfilling Prophecies**: Hyperstitions often involve self-fulfilling prophecies, where the belief in a particular outcome or scenario increases the likelihood of it occurring. This can happen on both individual and collective levels, influencing personal choices, social behaviors, and even global events [2](https://poe.com/danysdragons/1512927999960117) [3](http://xenopraxis.net/readings/carstens_hyperstition.pdf).
 
-Examples of Hyperstitions
+## Examples of Hyperstitions
 -------------------------
 
 *   **Science Fiction and Technological Development**: Technologies we use today, such as cell phones and the internet, were first imagined in science fiction. These narratives inspired real-world inventions [2](https://poe.com/danysdragons/1512927999960117).
 *   **Financial Markets**: Financial markets are driven by narratives and expectations rather than objective measures of value. The belief in the success or failure of a company can influence its actual performance [2](https://poe.com/danysdragons/1512927999960117).
 
-Using Hyperstitions for Personal Benefit
+## Using Hyperstitions for Personal Benefit
 ----------------------------------------
 
 If we assume hyperstitions can indeed shape reality, they could be leveraged for personal benefit in the following ways:
