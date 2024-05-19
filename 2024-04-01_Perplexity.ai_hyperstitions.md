@@ -1,3 +1,9 @@
+# Table of Contents
+
+ - [Explain hyperstitions to me, also if we assume they're true how can I use them...](#Explain-hyperstitions-to-me-also-if-we-assume-theyre-true-how-can-I-use-them)
+ - [User](#User)
+ - [Pro answer](#Pro-answer)
+
 <head>
 <script defer src="https://analytics.goinghome.earth/script.js" data-website-id="519b085c-73db-408b-bf40-6cb4d158dfbc"></script>
 </head>
