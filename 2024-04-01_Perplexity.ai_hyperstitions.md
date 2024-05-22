@@ -7,9 +7,6 @@
     - [Examples of Hyperstitions](#Examples-of-Hyperstitions)
     - [Using Hyperstitions for Personal Benefit](#Using-Hyperstitions-for-Personal-Benefit)
 
-<head>
-<script defer src="https://analytics.goinghome.earth/script.js" data-website-id="519b085c-73db-408b-bf40-6cb4d158dfbc"></script>
-</head>
 
 # Hyperstitions
 Exported on 01/04/2024  - with [SaveMyChatbot](https://save.hugocollin.com)

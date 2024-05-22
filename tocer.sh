@@ -12,14 +12,13 @@ if [ ! -f "$FILE" ]; then
     exit 1
 fi
 
-# Function to generate TOC with 2 levels
+# Function to generate TOC
 generate_toc() {
-    grep -E '^#{1,2} ' "$FILE" | sed -E 's/^(#{1,2}) /\1 /' | while read -r line; do
+    grep -E '^#{1,6} ' "$FILE" | sed -E 's/^(#{1,6}) /\1 /' | while read -r line; do
         level=$(echo "$line" | grep -o '^#' | wc -c)
         title=$(echo "$line" | sed 's/^#* //')
         anchor=$(echo "$title" | tr -cd '[:alnum:] ' | tr ' ' '-')
-        indent=$((level - 1))
-        printf "%*s- [%s](#%s)\n" $((indent * 4)) '' "$title" "$anchor"
+        printf "%*s- [%s](#%s)\n" $((level-1)) '' "$title" "$anchor"
     done
 }
 
@@ -28,10 +27,7 @@ TOC=$(generate_toc)
 
 # Insert TOC at the top of the file
 {
-    echo "# Table of Contents"
-    echo
-    echo "$TOC"
-    echo
+    echo -e "$TOC\n"
     cat "$FILE"
 } > temp.md && mv temp.md "$FILE"
 
