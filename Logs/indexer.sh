@@ -24,9 +24,9 @@ for file in *.{html,md,pdf}; do
     fi
 
     if [[ "$file" == *.pdf ]]; then
-        files_by_year[$year]+="- [$file](https://org.alienate.earth/logs/${file%.*}.pdf)\n"
+        files_by_year[$year]+="- [$file](https://org.alienate.earth/Logs/${file%.*}.pdf)\n"
     else
-        files_by_year[$year]+="- [$file](https://org.alienate.earth/logs/${file%.*}.html)\n"
+        files_by_year[$year]+="- [$file](https://org.alienate.earth/Logs/${file%.*}.html)\n"
     fi
 done
 

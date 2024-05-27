@@ -6,9 +6,9 @@ This index was automatically generated and is sorted by year created
 ---
 [main site](https://alienate.earth/)
 # 0
-- [*.html](https://org.alienate.earth/logs/*.html)
+- [*.html](https://org.alienate.earth/Logs/*.html)
 
 # 2024
-- [Reading log.pdf](https://org.alienate.earth/logs/Reading log.pdf)
-- [Running log.pdf](https://org.alienate.earth/logs/Running log.pdf)
+- [Reading log.pdf](https://org.alienate.earth/Logs/Reading log.pdf)
+- [Running log.pdf](https://org.alienate.earth/Logs/Running log.pdf)
 
