@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rm index.md
-output_file="index.md"
+rm master.md
+output_file="master.md"
 
 echo "<head>" >> "$output_file"
 echo '<script async src="https://analytics.goinghome.earth/script.js" data-website-id="519b085c-73db-408b-bf40-6cb4d158dfbc"></script>' >> "$output_file"
@@ -28,7 +28,7 @@ add_entry() {
 }
 
 # Iterate over files with specific extensions
-for file in *.{html,md,pdf}; do
+for file in *.{md,pdf}; do
     if [ "$file" == "README.md" ] || [ "$file" == "index.md" ] || [ ! -e "$file" ]; then
         continue
     fi
