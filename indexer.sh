@@ -1,11 +1,8 @@
 #!/bin/bash
 
-rm master.md
-output_file="master.md"
+rm index.md
+output_file="index.md"
 
-echo "<head>" >> "$output_file"
-echo '<script async src="https://analytics.goinghome.earth/script.js" data-website-id="519b085c-73db-408b-bf40-6cb4d158dfbc"></script>' >> "$output_file"
-echo "</head>" >> "$output_file"
 echo "# Masterlist"  >> "$output_file"
 echo "This index was automatically generated and is sorted by year created"  >> "$output_file"
 echo "---" >> "$output_file"
@@ -28,7 +25,7 @@ add_entry() {
 }
 
 # Iterate over files with specific extensions
-for file in *.{md,pdf}; do
+for file in *.{md,pdf,html}; do
     if [ "$file" == "README.md" ] || [ "$file" == "index.md" ] || [ ! -e "$file" ]; then
         continue
     fi
