@@ -9,12 +9,12 @@ async function fetchFiles() {
         const response = await fetch(apiUrl);
         const data = await response.json();
         const files = data.tree
-            .filter(item => item.type === 'blob' && /\.(org|md|html)$/i.test(item.path))
+            .filter(item => item.type === 'blob' && /\.(org|md|html|pdf)$/i.test(item.path))
             .map(file => ({
                 name: file.path.split('/').pop(),
                 path: file.path,
                 folder: file.path.split('/')[0],
-                url: `https://github.com/${username}/${repoName}/blob/${branch}/${file.path}`
+                url: `https://${username}.github.io/${repoName}/${file.path}`
             }));
 
         renderFileList(files);
@@ -24,12 +24,10 @@ async function fetchFiles() {
     }
 }
 
-// Render file list in HTML
 function renderFileList(fileArray) {
     const fileList = document.getElementById('fileList');
     fileList.innerHTML = '';
 
-    // Sort by last updated (if available)
     fileArray.forEach(file => {
         const li = document.createElement('li');
         li.className = 'fileItem';
@@ -49,7 +47,6 @@ function renderFileList(fileArray) {
     });
 }
 
-// Populate folder filter dropdown
 function populateFolderFilter(fileArray) {
     const folderFilter = document.getElementById('folderFilter');
     const folders = [...new Set(fileArray.map(file => file.folder))];
