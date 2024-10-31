@@ -9,7 +9,7 @@ async function fetchFiles() {
         const response = await fetch(apiUrl);
         const data = await response.json();
         const files = data.tree
-            .filter(item => item.type === 'blob' && /\.(org|md|html|pdf)$/i.test(item.path))
+            .filter(item => item.type === 'blob' && /\.(org|md|html|pdf|bib)$/i.test(item.path))
             .map(file => ({
                 name: file.path.split('/').pop(),
                 path: file.path,
