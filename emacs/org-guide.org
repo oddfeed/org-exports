@@ -1,0 +1,20 @@
+:PROPERTIES:
+:EXPORT_AUTHOR: oddfeed
+:END:
+#+title: Org Guide
+#+BIBLIOGRAPHY: citations.bib
+
+
+
+* Citations
+I'll also include a simply example of a footnote here[fn:1]
+** Example
+[cite/t/f:@better_speech]
+[cite:@How_AI_Works]
+
+
+* Citations
+#+print_bibliography:
+* Footnotes
+
+[fn:1] Hopefully a good test
